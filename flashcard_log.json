@@ -1,0 +1,2024 @@
+{
+  "flashcards": [
+    {
+      "front": "What is the primary purpose of data communications?",
+      "back": "Data communications refers to the exchange of data between two devices via some form of transmission medium, with its primary purpose being to enable the sharing of information.",
+      "unit": 1
+    },
+    {
+      "front": "Name the five fundamental components of a data communication system.",
+      "back": "The five components are: Sender, Receiver, Message, Transmission Medium, and Protocol.",
+      "unit": 1
+    },
+    {
+      "front": "Define a computer network.",
+      "back": "A computer network is a system that connects two or more computing devices to share resources, exchange files, or allow electronic communications.",
+      "unit": 1
+    },
+    {
+      "front": "What is the main benefit of using a computer network?",
+      "back": "The main benefit of using a network is resource sharing, allowing multiple users to access hardware (like printers), software, and data efficiently.",
+      "unit": 1
+    },
+    {
+      "front": "What is \"The Internet\"?",
+      "back": "The Internet is a global system of interconnected computer networks that uses the standard Internet Protocol Suite (TCP/IP) to serve billions of users worldwide.",
+      "unit": 1
+    },
+    {
+      "front": "Why are \"Protocols\" essential in data communication?",
+      "back": "Protocols are essential because they are a set of rules that govern data communication, ensuring that devices can understand each other and exchange data effectively.",
+      "unit": 1
+    },
+    {
+      "front": "What is the role of \"Standards\" in networking?",
+      "back": "Standards provide guidelines to manufacturers, vendors, and service providers, ensuring interoperability between devices and systems from different origins.",
+      "unit": 1
+    },
+    {
+      "front": "Explain the concept of \"Layered tasks\" in networking.",
+      "back": "Layered tasks involve dividing a complex communication process into smaller, more manageable sub-tasks, with each layer performing a specific function and interacting with adjacent layers.",
+      "unit": 1
+    },
+    {
+      "front": "What are the two main advantages of a layered architecture in networking?",
+      "back": "The two main advantages are modularity (easier to develop, update, and troubleshoot) and flexibility (changes in one layer don't significantly affect others).",
+      "unit": 1
+    },
+    {
+      "front": "What does \"OSI\" stand for in the context of networking?",
+      "back": "OSI stands for Open Systems Interconnection.",
+      "unit": 1
+    },
+    {
+      "front": "What is the primary purpose of the OSI model?",
+      "back": "The primary purpose of the OSI model is to provide a standard conceptual framework for how applications communicate over a network, breaking down complex interactions into seven distinct layers.",
+      "unit": 1
+    },
+    {
+      "front": "How many layers does the OSI model have?",
+      "back": "The OSI model has seven layers.",
+      "unit": 1
+    },
+    {
+      "front": "List the seven layers of the OSI model in order from Layer 1 to Layer 7.",
+      "back": "Physical, Data Link, Network, Transport, Session, Presentation, Application.",
+      "unit": 1
+    },
+    {
+      "front": "Which OSI layer is responsible for logical addressing (like IP addresses) and routing decisions?",
+      "back": "The Network Layer (Layer 3) is responsible for logical addressing and routing.",
+      "unit": 1
+    },
+    {
+      "front": "Which OSI layer ensures reliable end-to-end data delivery and flow control?",
+      "back": "The Transport Layer (Layer 4) ensures reliable end-to-end data delivery, segmentation, and flow control.",
+      "unit": 1
+    },
+    {
+      "front": "What does \"TCP/IP\" stand for?",
+      "back": "TCP/IP stands for Transmission Control Protocol/Internet Protocol.",
+      "unit": 1
+    },
+    {
+      "front": "What is the TCP/IP protocol architecture?",
+      "back": "The TCP/IP protocol architecture is a four-layer (or sometimes five-layer) conceptual model that forms the basis of the Internet, defining how data is communicated over networks.",
+      "unit": 1
+    },
+    {
+      "front": "Name the four layers of the TCP/IP model.",
+      "back": "The four commonly cited layers are: Network Access (or Link), Internet, Transport, and Application.",
+      "unit": 1
+    },
+    {
+      "front": "Which TCP/IP layer is equivalent to a combination of the OSI model's Physical and Data Link layers?",
+      "back": "The Network Access layer (or Link layer) of the TCP/IP model combines the functions of the OSI Physical and Data Link layers.",
+      "unit": 1
+    },
+    {
+      "front": "What is the primary function of the Internet layer in the TCP/IP model?",
+      "back": "The primary function of the Internet layer (which includes IP) is to handle the logical addressing, packaging, and routing of data packets across different networks (inter-networking).",
+      "unit": 1
+    },
+    {
+      "front": "What is the fundamental difference between analog and digital signals?",
+      "back": "Analog signals are continuous and vary smoothly, while digital signals are discrete and have distinct, separate values.",
+      "unit": 2
+    },
+    {
+      "front": "Describe an analog signal.",
+      "back": "An analog signal is a continuous wave that varies in amplitude or frequency over time, used to represent information.",
+      "unit": 2
+    },
+    {
+      "front": "Describe a digital signal.",
+      "back": "A digital signal is a discrete signal that represents information using a sequence of defined, often binary, values (e.g., 0s and 1s).",
+      "unit": 2
+    },
+    {
+      "front": "What is meant by the \"data rate limit\" in data communication?",
+      "back": "The data rate limit refers to the maximum speed at which data can be reliably transmitted over a specific communication channel under given conditions.",
+      "unit": 2
+    },
+    {
+      "front": "List the three main types of transmission impairments.",
+      "back": "The three main types are Attenuation, Distortion, and Noise.",
+      "unit": 2
+    },
+    {
+      "front": "What is the primary purpose of Line Coding?",
+      "back": "Line coding is the process of converting digital data into a digital signal suitable for transmission over a physical communication link.",
+      "unit": 2
+    },
+    {
+      "front": "How does Block Coding contribute to data transmission reliability?",
+      "back": "Block coding adds redundancy (extra bits) to blocks of data to detect and often correct errors that may occur during transmission.",
+      "unit": 2
+    },
+    {
+      "front": "Explain the concept of sampling in digital communication.",
+      "back": "Sampling is the process of converting an analog signal into a digital signal by taking discrete measurements (samples) of its amplitude at regular intervals.",
+      "unit": 2
+    },
+    {
+      "front": "What are the three basic Transmission Modes?",
+      "back": "The three basic transmission modes are Simplex, Half-duplex, and Full-duplex.",
+      "unit": 2
+    },
+    {
+      "front": "What is the purpose of modulating digital data?",
+      "back": "Modulation of digital data is the process of converting digital signals into analog signals so they can be transmitted over analog transmission media (like telephone lines).",
+      "unit": 2
+    },
+    {
+      "front": "What is the primary function of a Telephone Modem?",
+      "back": "A telephone modem (Modulator-Demodulator) converts digital signals from a computer into analog signals for transmission over telephone lines, and converts incoming analog signals back to digital.",
+      "unit": 2
+    },
+    {
+      "front": "Why is modulation of an analog signal performed?",
+      "back": "Modulation of an analog signal is performed to shift its frequency for efficient transmission over longer distances, to allow multiple signals to share a medium, or to make it suitable for specific media.",
+      "unit": 2
+    },
+    {
+      "front": "What does FDM stand for, and how does it work?",
+      "back": "FDM stands for Frequency Division Multiplexing. It combines multiple signals into a single composite signal by assigning each signal a different frequency band.",
+      "unit": 2
+    },
+    {
+      "front": "What is WDM primarily used for in communication networks?",
+      "back": "WDM (Wavelength Division Multiplexing) is primarily used in fiber-optic communication to combine multiple optical signals of different wavelengths onto a single optical fiber.",
+      "unit": 2
+    },
+    {
+      "front": "Explain the principle behind TDM.",
+      "back": "TDM (Time Division Multiplexing) combines multiple digital signals by dividing the transmission time into discrete slots, with each signal assigned a unique time slot for transmission.",
+      "unit": 2
+    },
+    {
+      "front": "Provide two examples of Guided Media.",
+      "back": "Twisted-pair cable, Coaxial cable, and Fiber-optic cable. (Any two)",
+      "unit": 2
+    },
+    {
+      "front": "Provide two examples of Unguided Media.",
+      "back": "Radio waves, Microwaves, and Infrared waves. (Any two)",
+      "unit": 2
+    },
+    {
+      "front": "What is the main characteristic of Circuit Switching?",
+      "back": "Circuit switching establishes a dedicated, fixed communication path (circuit) between two communicating parties for the entire duration of their communication.",
+      "unit": 2
+    },
+    {
+      "front": "What does DSL stand for, and what service does it typically provide?",
+      "back": "DSL stands for Digital Subscriber Line. It typically provides high-speed internet access over traditional copper telephone lines.",
+      "unit": 2
+    },
+    {
+      "front": "What is SONET, and what is its primary role in networking?",
+      "back": "SONET (Synchronous Optical Network) is a standardized multiplexing protocol used to transmit large amounts of data over fiber optic networks at high speeds.",
+      "unit": 2
+    },
+    {
+      "front": "What are the two primary types of errors that can occur during data transmission?",
+      "back": "Single-bit errors and burst errors.",
+      "unit": 3
+    },
+    {
+      "front": "What is the main goal of error detection techniques in data communication?",
+      "back": "To determine if any errors have occurred in the transmitted data, without necessarily correcting them.",
+      "unit": 3
+    },
+    {
+      "front": "How does an error correction mechanism function in data transmission?",
+      "back": "It not only detects errors but also implements methods to reconstruct or recover the original data.",
+      "unit": 3
+    },
+    {
+      "front": "Explain the purpose of flow control in a data link layer protocol.",
+      "back": "Flow control is used to prevent a fast sender from overwhelming a slow receiver by regulating the rate of data transmission.",
+      "unit": 3
+    },
+    {
+      "front": "Describe the \"Stop-and-Wait ARQ\" protocol.",
+      "back": "The sender sends one frame and waits for an acknowledgment (ACK) before sending the next. If the ACK is not received within a timeout or a negative acknowledgment (NAK) is received, the frame is retransmitted.",
+      "unit": 3
+    },
+    {
+      "front": "What is the retransmission strategy of \"Go-Back-N ARQ\" when an error is detected?",
+      "back": "If an error is detected, the receiver discards the erroneous frame and all subsequent frames; the sender then retransmits the corrupted frame and all subsequent frames that were sent after it.",
+      "unit": 3
+    },
+    {
+      "front": "What is the key advantage of \"Selective Repeat ARQ\" compared to \"Go-Back-N ARQ\"?",
+      "back": "Selective Repeat ARQ only retransmits the specific frames that are lost or detected as erroneous, rather than retransmitting all frames from the point of error onward, leading to better efficiency.",
+      "unit": 3
+    },
+    {
+      "front": "What does HDLC stand for, and at which layer of the OSI model does it operate?",
+      "back": "HDLC stands for High-Level Data Link Control, and it operates at the Data Link Layer (Layer 2).",
+      "unit": 3
+    },
+    {
+      "front": "What is the primary application of the Point-to-Point Protocol (PPP)?",
+      "back": "PPP is primarily used for establishing a direct connection between two nodes, often for dial-up or broadband internet access.",
+      "unit": 3
+    },
+    {
+      "front": "Briefly explain the concept of the PPP stack.",
+      "back": "The PPP stack consists of a Link Control Protocol (LCP) for managing the data link, and various Network Control Protocols (NCPs) for configuring different network-layer protocols (like IP).",
+      "unit": 3
+    },
+    {
+      "front": "Name the three main multiple access methods used to share a single broadcast channel.",
+      "back": "Random Access, Controlled Access, and Channelization.",
+      "unit": 3
+    },
+    {
+      "front": "What is the defining characteristic of Traditional Ethernet in terms of speed?",
+      "back": "Traditional Ethernet operates at a data rate of 10 Megabits per second (Mbps).",
+      "unit": 3
+    },
+    {
+      "front": "What data rates are supported by Fast Ethernet and Gigabit Ethernet respectively?",
+      "back": "Fast Ethernet supports 100 Mbps, and Gigabit Ethernet supports 1000 Mbps (1 Gbps).",
+      "unit": 3
+    },
+    {
+      "front": "What is the purpose of the IEEE 802.11 family of standards?",
+      "back": "The IEEE 802.11 standards define the specifications for Wireless Local Area Networks (WLANs), commonly known as Wi-Fi.",
+      "unit": 3
+    },
+    {
+      "front": "For what purpose is Bluetooth technology commonly used?",
+      "back": "Bluetooth is used for short-range wireless communication to create Personal Area Networks (PANs) for connecting devices like headsets, smartphones, and peripherals.",
+      "unit": 3
+    },
+    {
+      "front": "List two examples of connecting devices used in computer networks.",
+      "back": "Switches, Routers, Hubs, Bridges, Repeaters. (Any two)",
+      "unit": 3
+    },
+    {
+      "front": "What is a Virtual LAN (VLAN)?",
+      "back": "A VLAN is a logical grouping of network devices that allows them to communicate as if they were on the same physical segment, regardless of their actual physical location, often used for network segmentation and security.",
+      "unit": 3
+    },
+    {
+      "front": "Describe the concept of Virtual Circuit Switching.",
+      "back": "In virtual circuit switching, a connection-oriented approach is used where a dedicated logical path (virtual circuit) is established between sender and receiver for the duration of the data transfer, with all packets following this predefined path.",
+      "unit": 3
+    },
+    {
+      "front": "What is Frame Relay and where is it typically used?",
+      "back": "Frame Relay is a high-performance Wide Area Network (WAN) protocol that uses variable-sized frames for data transmission, commonly used for connecting LANs over wide areas.",
+      "unit": 3
+    },
+    {
+      "front": "What does ATM stand for, and what makes it distinct in terms of data unit size?",
+      "back": "ATM stands for Asynchronous Transfer Mode. It is distinct because it uses small, fixed-size data units called cells (53 bytes) for transmission, designed for high-speed, real-time multimedia traffic.",
+      "unit": 3
+    },
+    {
+      "front": "What is an internetwork?",
+      "back": "An internetwork is a collection of interconnected computer networks, using a common protocol (like IP) to allow communication between devices across different networks.",
+      "unit": 4
+    },
+    {
+      "front": "What is the primary purpose of creating an internetwork?",
+      "back": "The primary purpose is to enable seamless communication and resource sharing between devices located on different, physically separate networks.",
+      "unit": 4
+    },
+    {
+      "front": "What is the fundamental purpose of addressing in an internetwork?",
+      "back": "Addressing provides a unique identifier for each device or interface within an internetwork, enabling data to be correctly routed to its intended destination.",
+      "unit": 4
+    },
+    {
+      "front": "Define routing in the context of internetworks.",
+      "back": "Routing is the process of selecting the best path for data packets to travel from their source to their destination across different networks.",
+      "unit": 4
+    },
+    {
+      "front": "What network device is primarily responsible for performing routing functions?",
+      "back": "A router.",
+      "unit": 4
+    },
+    {
+      "front": "How do routers determine the optimal path for data packets?",
+      "back": "Routers use routing tables, which contain information about network paths and associated metrics, to determine the best route.",
+      "unit": 4
+    },
+    {
+      "front": "What does ARP stand for and what is its primary function?",
+      "back": "ARP stands for Address Resolution Protocol, and its primary function is to map an IP address (logical address) to a physical (MAC) address.",
+      "unit": 4
+    },
+    {
+      "front": "Why is ARP necessary in a local network segment?",
+      "back": "ARP is necessary to translate network-layer IP addresses into data-link layer MAC addresses, which are required for actual frame delivery on a local segment.",
+      "unit": 4
+    },
+    {
+      "front": "What is IP (Internet Protocol) and what layer does it operate on in the TCP/IP model?",
+      "back": "IP is the principal communications protocol for relaying datagrams across network boundaries. It operates on the Network Layer.",
+      "unit": 4
+    },
+    {
+      "front": "Is IP a connection-oriented or connectionless protocol?",
+      "back": "IP is a connectionless protocol, meaning it sends data packets independently without establishing a dedicated end-to-end connection.",
+      "unit": 4
+    },
+    {
+      "front": "What does ICMP stand for and what is its main purpose?",
+      "back": "ICMP stands for Internet Control Message Protocol. Its main purpose is to send error messages and operational information about network conditions.",
+      "unit": 4
+    },
+    {
+      "front": "Name two common network diagnostic utilities that rely on ICMP.",
+      "back": "Ping and Traceroute (or Tracert).",
+      "unit": 4
+    },
+    {
+      "front": "What was the primary motivation for the development of IPv6?",
+      "back": "The primary motivation was the anticipated exhaustion of IPv4 addresses and the need for a larger address space.",
+      "unit": 4
+    },
+    {
+      "front": "How many bits are used for an IPv6 address?",
+      "back": "An IPv6 address uses 128 bits.",
+      "unit": 4
+    },
+    {
+      "front": "Define unicast routing and specify how many recipients receive the data.",
+      "back": "Unicast routing is the process of delivering a data packet from a single source to a single, specific destination. Only one specific recipient receives the data.",
+      "unit": 4
+    },
+    {
+      "front": "What is the main role of unicast routing protocols?",
+      "back": "Unicast routing protocols enable routers to dynamically exchange routing information and build routing tables to determine the best paths for unicast traffic.",
+      "unit": 4
+    },
+    {
+      "front": "Name two common unicast interior gateway protocols (IGPs).",
+      "back": "RIP (Routing Information Protocol) and OSPF (Open Shortest Path First).",
+      "unit": 4
+    },
+    {
+      "front": "Explain multicast routing and define a \"multicast group.\"",
+      "back": "Multicast routing is an efficient method for sending the same data packet from a single source to a selected group of multiple destinations simultaneously. A multicast group is a logical group of hosts configured to receive the same data stream, identified by a single multicast IP address.",
+      "unit": 4
+    },
+    {
+      "front": "What is the primary function of multicast routing protocols?",
+      "back": "Multicast routing protocols are used by routers to build and maintain distribution trees that efficiently deliver multicast packets to all members of a multicast group.",
+      "unit": 4
+    },
+    {
+      "front": "Name a common multicast routing protocol.",
+      "back": "PIM (Protocol Independent Multicast).",
+      "unit": 4
+    },
+    {
+      "front": "What is the main purpose of \"process to process delivery\" in networking?",
+      "back": "It ensures that data reaches the correct application process on a specific host, not just the host itself.",
+      "unit": 5
+    },
+    {
+      "front": "Which layer of the TCP/IP model is primarily responsible for process-to-process delivery?",
+      "back": "The Transport Layer.",
+      "unit": 5
+    },
+    {
+      "front": "What does UDP stand for, and what is its primary characteristic regarding connection?",
+      "back": "UDP stands for User Datagram Protocol, and it is a connectionless protocol.",
+      "unit": 5
+    },
+    {
+      "front": "List one key characteristic of UDP regarding reliability.",
+      "back": "UDP is an unreliable protocol as it does not provide error checking, flow control, or retransmission.",
+      "unit": 5
+    },
+    {
+      "front": "Provide an example of an application that typically uses UDP where speed is more critical than absolute reliability.",
+      "back": "Real-time applications like online gaming, live video streaming, or DNS lookups.",
+      "unit": 5
+    },
+    {
+      "front": "What does TCP stand for, and what is its primary characteristic regarding connection?",
+      "back": "TCP stands for Transmission Control Protocol, and it is a connection-oriented protocol.",
+      "unit": 5
+    },
+    {
+      "front": "How does TCP ensure reliable data transmission?",
+      "back": "By using mechanisms like sequence numbers, acknowledgements (ACKs), retransmission timers, and checksums.",
+      "unit": 5
+    },
+    {
+      "front": "State one fundamental difference between TCP and UDP regarding flow control.",
+      "back": "TCP provides flow control (e.g., using a sliding window) to prevent a fast sender from overwhelming a slow receiver, whereas UDP does not.",
+      "unit": 5
+    },
+    {
+      "front": "What is \"data traffic\" in the context of computer networks?",
+      "back": "It refers to the volume and flow of data packets traveling across a network at any given time.",
+      "unit": 5
+    },
+    {
+      "front": "Define network \"congestion.\"",
+      "back": "Network congestion occurs when the demand for network resources (like bandwidth or router processing) exceeds the available capacity, leading to performance degradation.",
+      "unit": 5
+    },
+    {
+      "front": "Name two common symptoms of network congestion.",
+      "back": "Increased packet delay, packet loss, and reduced throughput.",
+      "unit": 5
+    },
+    {
+      "front": "What is the main objective of \"congestion control\" in networking?",
+      "back": "To prevent or mitigate network congestion and maintain stable, efficient network performance.",
+      "unit": 5
+    },
+    {
+      "front": "Name a common algorithm or mechanism used by TCP for congestion control.",
+      "back": "Quality of Service.",
+      "unit": 5
+    },
+    {
+      "front": "Briefly explain the concept of Quality of Service (QoS).",
+      "back": "QoS is crucial in switched networks to manage potential congestion at switch ports, prioritize time-sensitive traffic (like voice/video), and ensure predictable performance for different applications.",
+      "unit": 5
+    },
+    {
+      "front": "What defines the client-server model in network architecture?",
+      "back": "In the client-server model, clients request services or resources from servers, which provide them.",
+      "unit": 6
+    },
+    {
+      "front": "What is the primary function of a socket interface in network programming?",
+      "back": "A socket interface provides an endpoint for sending or receiving data across a network, acting as an API for network communication.",
+      "unit": 6
+    },
+    {
+      "front": "What is a \"name space\" in the context of network addressing?",
+      "back": "A name space is a system that maps names (e.g., domain names) to numerical addresses (e.g., IP addresses) or other identifiers.",
+      "unit": 6
+    },
+    {
+      "front": "How is the Domain Name Space (DNS) structured?",
+      "back": "The Domain Name Space is structured hierarchically, resembling an inverted tree, with the root at the top and various levels of domains branching downwards.",
+      "unit": 6
+    },
+    {
+      "front": "Why is the Domain Name Space distributed rather than centralized?",
+      "back": "It is distributed to ensure scalability, fault tolerance, and efficient management, allowing different organizations to manage their own parts of the name space.",
+      "unit": 6
+    },
+    {
+      "front": "What is the primary role of DNS in the Internet?",
+      "back": "DNS translates human-readable domain names (like www.example.com) into machine-readable IP addresses (like 192.0.2.1).",
+      "unit": 6
+    },
+    {
+      "front": "What is \"DNS resolution\"?",
+      "back": "DNS resolution is the process of converting a domain name into its corresponding IP address, often involving multiple DNS servers.",
+      "unit": 6
+    },
+    {
+      "front": "Name the two fundamental types of messages exchanged in the DNS system.",
+      "back": "The two types are query messages (requests for information) and response messages (answers to queries).",
+      "unit": 6
+    },
+    {
+      "front": "What is the main advantage of using Dynamic DNS (DDNS)?",
+      "back": "DDNS allows automatic updates of DNS records when IP addresses change, which is useful for hosts with dynamic IP assignments.",
+      "unit": 6
+    },
+    {
+      "front": "Explain the concept of encapsulation in network protocols.",
+      "back": "Encapsulation is the process where data from an upper layer protocol is wrapped with a header and/or footer from a lower layer protocol, forming a new PDU.",
+      "unit": 6
+    },
+    {
+      "front": "Which protocol is commonly used for sending email messages from a client to a server or between servers?",
+      "back": "Simple Mail Transfer Protocol (SMTP).",
+      "unit": 6
+    },
+    {
+      "front": "What is the standard protocol widely used for transferring files over a network?",
+      "back": "File Transfer Protocol (FTP).",
+      "unit": 6
+    },
+    {
+      "front": "For what purpose is the Hypertext Transfer Protocol (HTTP) primarily used?",
+      "back": "HTTP is the foundation of data communication for the World Wide Web, used for fetching resources like HTML documents.",
+      "unit": 6
+    },
+    {
+      "front": "What is the World Wide Web (WWW)?",
+      "back": "The WWW is a global system of interconnected computer networks that uses HTTP to deliver content, including web pages, images, and videos.",
+      "unit": 6
+    },
+    {
+      "front": "What is the core process involved in digitizing analog audio or video?",
+      "back": "It involves sampling the analog signal at regular intervals and then quantizing (converting) each sample into a binary digital value.",
+      "unit": 6
+    },
+    {
+      "front": "Why is audio and video compression essential for network streaming?",
+      "back": "Streaming allows playback to begin almost immediately as data arrives, without waiting for the entire file to download, whereas downloading requires the complete file before playback.",
+      "unit": 6
+    },
+    {
+      "front": "Provide an example of a service that utilizes streaming live audio/video.",
+      "back": "Live broadcasts of sports events, news channels, or video conferencing are examples of streaming live audio/video.",
+      "unit": 6
+    },
+    {
+      "front": "What is a key characteristic required for \"real-time interactive audio/video\"?",
+      "back": "Low latency is crucial to enable natural, conversational interaction, minimizing delays between transmission and reception.",
+      "unit": 6
+    },
+    {
+      "front": "What technology enables voice communication over the Internet Protocol (IP) networks?",
+      "back": "Voice over IP (VoIP).",
+      "unit": 6
+    },
+    {
+      "front": "What is the defining characteristic of a Circuit Switching Network?",
+      "back": "It establishes a dedicated communication path between two parties for the duration of the communication.",
+      "unit": 7
+    },
+    {
+      "front": "Name the three phases involved in a Circuit Switched connection.",
+      "back": "Setup phase, Data transfer phase, and Teardown phase.",
+      "unit": 7
+    },
+    {
+      "front": "Give a real-world example of a network that historically uses circuit switching.",
+      "back": "The Public Switched Telephone Network (PSTN).",
+      "unit": 7
+    },
+    {
+      "front": "What is the fundamental goal of using switching techniques in a network?",
+      "back": "To allow multiple users to share common network resources and establish connections efficiently.",
+      "unit": 7
+    },
+    {
+      "front": "What is the primary function of Control Signaling in telecommunication networks?",
+      "back": "To manage the establishment, maintenance, and termination of connections and services.",
+      "unit": 7
+    },
+    {
+      "front": "How does control signaling facilitate a call in a circuit-switched network?",
+      "back": "It handles call setup (e.g., dial tone, ringing) and call teardown (e.g., disconnection upon hang-up).",
+      "unit": 7
+    },
+    {
+      "front": "Briefly define a Softswitch.",
+      "back": "A software-based device that separates call control and signaling functions from media transmission, often used in Next-Generation Networks (NGN).",
+      "unit": 7
+    },
+    {
+      "front": "What is a key advantage of Softswitch architecture for network operators?",
+      "back": "It allows for greater flexibility in deploying new services and simplifies the integration of voice and data services over IP.",
+      "unit": 7
+    },
+    {
+      "front": "What is the core principle of Packet Switching?",
+      "back": "Data is divided into small, independent units called packets, which are then transmitted individually across the network.",
+      "unit": 7
+    },
+    {
+      "front": "How does packet switching improve network efficiency compared to circuit switching?",
+      "back": "It allows multiple users to share the same network links dynamically, leading to better utilization of bandwidth and reduced idle time.",
+      "unit": 7
+    },
+    {
+      "front": "What is a common disadvantage of packet switching regarding delivery order?",
+      "back": "Packets may arrive out of order at the destination, requiring reassembly and reordering by the receiving device.",
+      "unit": 7
+    },
+    {
+      "front": "What is the implication of choosing a very large packet size in a packet-switched network?",
+      "back": "Large packets increase transmission delay for interactive applications and make error recovery less efficient if a packet is corrupted.",
+      "unit": 7
+    },
+    {
+      "front": "What type of network did X.25 primarily operate on, and what was its focus?",
+      "back": "It was an early standard for Wide Area Packet Switched Networks (PSDNs), focusing on reliable data transmission over unreliable links.",
+      "unit": 7
+    },
+    {
+      "front": "What specific mechanism did X.25 extensively use to ensure data integrity?",
+      "back": "It streamlined the protocol by removing much of the error checking and flow control, assuming more reliable underlying links.",
+      "unit": 7
+    },
+    {
+      "front": "What is the primary data unit transported across a Frame Relay network?",
+      "back": "Variable-length frames.",
+      "unit": 7
+    },
+    {
+      "front": "What characteristic defines the data units in Asynchronous Transfer Mode (ATM)?",
+      "back": "Each intermediate node receives, stores, and then completely forwards the entire message to the next node when a link becomes available.",
+      "unit": 7
+    },
+    {
+      "front": "What is a key difference between Message Switching and Packet Switching regarding message division?",
+      "back": "Message switching transmits the entire message as one unit, whereas packet switching divides the message into smaller, independent packets.",
+      "unit": 7
+    },
+    {
+      "front": "Define Client-Server Architecture.",
+      "back": "Client-Server Architecture is a distributed application structure where tasks are divided between service requesters (clients) and service providers (servers).",
+      "unit": 1
+    },
+    {
+      "front": "What is the primary function of a web browser?",
+      "back": "A web browser is a software application used to access, retrieve, and display web content (websites) from the World Wide Web.",
+      "unit": 1
+    },
+    {
+      "front": "What is the main role of a Web Server?",
+      "back": "A Web Server stores website content and delivers web pages to clients (web browsers) upon request, typically using HTTP.",
+      "unit": 1
+    },
+    {
+      "front": "Explain Tier Technology in the context of web applications.",
+      "back": "Tier Technology refers to the logical separation of components in a software application, where different functionalities (like presentation, logic, and data) are isolated into distinct layers or \"tiers.\"",
+      "unit": 1
+    },
+    {
+      "front": "Name the common types of Tier Technology architectures.",
+      "back": "The common types of Tier Technology architectures are 1-tier (single-tier), 2-tier, and 3-tier.",
+      "unit": 1
+    },
+    {
+      "front": "What is the fundamental difference between a Static Page and a Dynamic Page?",
+      "back": "A Static Page displays the same pre-built content to every user, while a Dynamic Page generates content in real-time based on user requests or other variables.",
+      "unit": 1
+    },
+    {
+      "front": "How are Static Pages typically processed and delivered?",
+      "back": "Static pages are processed by the web server simply retrieving the pre-existing HTML file from its storage and sending it directly to the client's browser.",
+      "unit": 1
+    },
+    {
+      "front": "What is Domain Registration?",
+      "back": "Domain Registration is the process of reserving a unique domain name (e.g., example.com) on the internet for a specific period, making it exclusively yours to use.",
+      "unit": 1
+    },
+    {
+      "front": "What is Web Hosting?",
+      "back": "Web Hosting is a service that allows individuals and organizations to make their website accessible via the World Wide Web by providing storage space on a server for the website's files.",
+      "unit": 1
+    },
+    {
+      "front": "What does URL stand for and what is its purpose?",
+      "back": "URL stands for Uniform Resource Locator. Its purpose is to provide a unique address for every resource on the web, allowing web browsers to locate and retrieve them.",
+      "unit": 1
+    },
+    {
+      "front": "What is the key difference between HTTP and HTTPS?",
+      "back": "The key difference is security: HTTPS (Hypertext Transfer Protocol Secure) encrypts the communication between the browser and server using SSL/TLS, while HTTP (Hypertext Transfer Protocol) does not.",
+      "unit": 1
+    },
+    {
+      "front": "Describe an HTTP Transaction.",
+      "back": "An HTTP transaction involves a client sending an HTTP request (e.g., to retrieve a page) to a server, and the server responding with an HTTP response containing the requested resource or a status code.",
+      "unit": 1
+    },
+    {
+      "front": "What does DNS stand for and what is its primary function?",
+      "back": "DNS stands for Domain Name System. Its primary function is to translate human-readable domain names (like google.com) into machine-readable IP addresses.",
+      "unit": 1
+    },
+    {
+      "front": "Briefly explain the working mechanism of DNS when you type a website address.",
+      "back": "When a user types a domain name, the DNS Resolver queries DNS servers to find the corresponding IP address. Once resolved, this IP address is used to connect the user's browser to the correct web server.",
+      "unit": 1
+    },
+    {
+      "front": "What does FTP stand for and what is its main purpose?",
+      "back": "FTP stands for File Transfer Protocol. Its main purpose is to enable the transfer of files between a client and a server on a computer network.",
+      "unit": 1
+    },
+    {
+      "front": "Name the two main types of FTP connections.",
+      "back": "The two main types of FTP connections are Active Mode and Passive Mode.",
+      "unit": 1
+    },
+    {
+      "front": "What is an FTP Client? Provide an example.",
+      "back": "An FTP client is a software application that allows users to connect to an FTP server to upload, download, or manage files. An example is FileZilla.",
+      "unit": 1
+    },
+    {
+      "front": "What is the role of SMTP in email communication?",
+      "back": "SMTP (Simple Mail Transfer Protocol) is primarily used for sending emails from an email client to an email server, and for relaying emails between mail servers.",
+      "unit": 1
+    },
+    {
+      "front": "Explain the primary function of POP3 for email retrieval.",
+      "back": "IMAP (Internet Message Access Protocol) allows users to manage and access emails directly on the server, synchronizing changes across multiple devices, whereas POP3 typically downloads emails to one device and removes them from the server.",
+      "unit": 1
+    },
+    {
+      "front": "What is the primary purpose of HTML5 in web development?",
+      "back": "HTML5 is the latest version of HyperText Markup Language, designed to structure content on the web, support multimedia, provide offline capabilities, and introduce new semantic elements.",
+      "unit": 2
+    },
+    {
+      "front": "What is the correct DOCTYPE declaration for an HTML5 document?",
+      "back": "`<!DOCTYPE html>`",
+      "unit": 2
+    },
+    {
+      "front": "How does the DOCTYPE declaration in HTML5 compare to previous HTML versions?",
+      "back": "HTML5 simplifies the DOCTYPE declaration to a short `<!DOCTYPE html>`, unlike previous versions that required complex DTD (Document Type Definition) references.",
+      "unit": 2
+    },
+    {
+      "front": "Define an HTML element and an HTML attribute.",
+      "back": "An HTML element is a building block of a web page, typically consisting of a start tag, content, and an end tag (e.g., `<p>Text</p>`). An HTML attribute provides additional information about an element and is specified within the start tag (e.g., `<a href=\"url\">Link</a>`).",
+      "unit": 2
+    },
+    {
+      "front": "What is a semantic element in HTML5? Give an example.",
+      "back": "A semantic element clearly describes its meaning to both the browser and the developer, providing more meaningful structure. Examples include `<header>`, `<footer>`, `<nav>`, `<article>`, `<section>`, and `<aside>`.",
+      "unit": 2
+    },
+    {
+      "front": "Explain the importance of the `<meta>` element in HTML5 documents.",
+      "back": "The `<meta>` element provides metadata about the HTML document, such as character set, viewport settings, description, and keywords, which are crucial for browser rendering, responsiveness, and search engine optimization (SEO).",
+      "unit": 2
+    },
+    {
+      "front": "Which HTML5 semantic element is used to define a standalone, self-contained piece of content that could be distributed independently, like a blog post or news story?",
+      "back": "The `<article>` element.",
+      "unit": 2
+    },
+    {
+      "front": "What is the purpose of the `<section>` element in HTML5?",
+      "back": "The `<section>` element is used to group related content, often with a heading, representing a thematic grouping of content, such as chapters, tabbed content, or distinct parts of an article.",
+      "unit": 2
+    },
+    {
+      "front": "Name the three main types of lists available in HTML5 and their respective tags.",
+      "back": "Unordered List (`<ul>`), Ordered List (`<ol>`), and Description List (`<dl>`).",
+      "unit": 2
+    },
+    {
+      "front": "What HTML tag is used for defining a hyperlink, and what attribute specifies its destination?",
+      "back": "The `<a>` (anchor) tag is used, and the `href` attribute specifies the destination URL.",
+      "unit": 2
+    },
+    {
+      "front": "How do you embed an image into an HTML5 webpage? Provide the essential attributes.",
+      "back": "You use the `<img>` tag with the `src` attribute for the image source and the `alt` attribute for alternative text (e.g., `<img src=\"image.jpg\" alt=\"Description\">`).",
+      "unit": 2
+    },
+    {
+      "front": "Which HTML5 element is specifically designed to define the main content area of a document or application, unique per page?",
+      "back": "The `<main>` element.",
+      "unit": 2
+    },
+    {
+      "front": "What HTML tag is used to create a table in HTML5, and what tags define a table row and a table data cell, respectively?",
+      "back": "The `<table>` tag creates a table. `<tr>` defines a table row, and `<td>` defines a table data cell.",
+      "unit": 2
+    },
+    {
+      "front": "How do you create a password input field within an HTML5 form?",
+      "back": "Using the `<input>` tag with `type=\"password\"` (e.g., `<input type=\"password\" id=\"pass\" name=\"password\">`).",
+      "unit": 2
+    },
+    {
+      "front": "What is an HTML entity reference, and why are they used? Give an example.",
+      "back": "An HTML entity reference is a sequence of characters that represents a special character or symbol. They are used to display characters that have special meaning in HTML (like `<` or `>`), or characters not easily typed on a keyboard. Example: `&lt;` for `<`, `&copy;` for \u00a9.",
+      "unit": 2
+    },
+    {
+      "front": "Which HTML5 element is used to embed content from another source, like another web page, into the current document?",
+      "back": "The `<iframe>` element.",
+      "unit": 2
+    },
+    {
+      "front": "How would you group a set of related form elements together with a caption in HTML5?",
+      "back": "By using the `<fieldset>` element to group the elements, and the `<legend>` element to provide a caption for the `<fieldset>`.",
+      "unit": 2
+    },
+    {
+      "front": "Name two new form input types introduced in HTML5 that weren't available in previous versions.",
+      "back": "Examples include `email`, `url`, `number`, `date`, `color`, `range`, `search`, `tel`. (Any two of these, e.g., `type=\"email\"` and `type=\"date\"`).",
+      "unit": 2
+    },
+    {
+      "front": "What is the primary purpose of the `alt` attribute when used with the `<img>` tag?",
+      "back": "The `alt` attribute provides alternative text for an image, which is displayed if the image cannot be loaded. It is crucial for accessibility (screen readers) and for SEO purposes.",
+      "unit": 2
+    },
+    {
+      "front": "What is the primary goal of any web design approach?",
+      "back": "The primary goal is to create a user-friendly, visually appealing, and functional website that effectively delivers its content and purpose to the target audience.",
+      "unit": 3
+    },
+    {
+      "front": "Define table-based design in the context of web layouts.",
+      "back": "Table-based design is an older web design approach where HTML `<table>` elements were used extensively to structure and position entire webpage layouts, rather than just displaying tabular data.",
+      "unit": 3
+    },
+    {
+      "front": "What is a significant disadvantage of using table-based layouts for an entire webpage?",
+      "back": "Disadvantages include poor accessibility, inflexible layouts, increased HTML file size, difficulty in maintenance, and non-semantic markup.",
+      "unit": 3
+    },
+    {
+      "front": "What is meant by \"table-less design\"?",
+      "back": "Table-less design is a modern web design approach that uses CSS (Cascading Style Sheets) for layout and positioning elements, instead of relying on HTML `<table>` tags for structural purposes.",
+      "unit": 3
+    },
+    {
+      "front": "What technology is primarily used for layout and positioning in table-less web design?",
+      "back": "Cascading Style Sheets (CSS).",
+      "unit": 3
+    },
+    {
+      "front": "Name one key benefit of using table-less design over table-based design.",
+      "back": "Benefits include better accessibility, improved search engine optimization (SEO), smaller file sizes, faster loading times, easier maintenance, and greater design flexibility.",
+      "unit": 3
+    },
+    {
+      "front": "What does CSS stand for?",
+      "back": "Cascading Style Sheets.",
+      "unit": 3
+    },
+    {
+      "front": "What is the primary purpose of CSS in web development?",
+      "back": "The primary purpose of CSS is to define the presentation and styling of HTML documents, including aspects like layout, colors, fonts, and responsiveness.",
+      "unit": 3
+    },
+    {
+      "front": "How do you change the background color of an element using CSS?",
+      "back": "Use the `background-color` property, e.g., `background-color: blue;` or `background-color: #RRGGBB;`.",
+      "unit": 3
+    },
+    {
+      "front": "Explain the difference between `margin` and `padding` in the CSS Box Model.",
+      "back": "`Padding` is the space between the content of an element and its border, while `margin` is the space outside the border, separating the element from other elements.",
+      "unit": 3
+    },
+    {
+      "front": "What are the three main ways to include CSS in an HTML document?",
+      "back": "Inline styles (using the `style` attribute), internal stylesheets (using `<style>` tags in the `<head>`), and external stylesheets (linking a `.css` file using `<link>` tag).",
+      "unit": 3
+    },
+    {
+      "front": "What is a \"trend in webpage design\" that focuses on adapting layouts to different screen sizes?",
+      "back": "Responsive Web Design.",
+      "unit": 3
+    },
+    {
+      "front": "Describe what \"mobile-first design\" means as a modern web design trend.",
+      "back": "Mobile-first design is an approach where designers prioritize designing for mobile devices (smaller screens) first, then progressively enhance the design for larger screens.",
+      "unit": 3
+    },
+    {
+      "front": "What is \"flat design\"?",
+      "back": "Flat design is a minimalist UI design trend that emphasizes simplicity and the absence of three-dimensional effects like shadows or gradients, focusing on clean lines and vibrant colors.",
+      "unit": 3
+    },
+    {
+      "front": "What is cross-browser scripting?",
+      "back": "Cross-browser scripting refers to writing web scripts (primarily JavaScript) that function consistently and correctly across different web browsers and their versions, despite variations in their rendering engines and DOM implementations.",
+      "unit": 3
+    },
+    {
+      "front": "Why is cross-browser scripting important in web development?",
+      "back": "It's important to ensure that all users, regardless of the browser they choose, have a consistent and functional experience with the website, avoiding broken layouts or non-functional features.",
+      "unit": 3
+    },
+    {
+      "front": "Name a common CSS property used to control the font size of text.",
+      "back": "`font-size`.",
+      "unit": 3
+    },
+    {
+      "front": "What is the purpose of the `display` CSS property?",
+      "back": "The `display` property specifies how an element is displayed on a web page, affecting its layout behavior. Common values include `block`, `inline`, `inline-block`, `none`, `flex`, and `grid`.",
+      "unit": 3
+    },
+    {
+      "front": "What does \"user experience (UX)\" primarily focus on in web design trends?",
+      "back": "UX focuses on enhancing user satisfaction by improving the usability, accessibility, and pleasure provided in the interaction between the user and the website.",
+      "unit": 3
+    },
+    {
+      "front": "What is a \"polyfill\" in the context of cross-browser scripting?",
+      "back": "A polyfill is a piece of code (typically JavaScript) that provides modern functionality to older browsers that natively lack it, effectively \"filling in\" the missing features so that newer code can run as expected.",
+      "unit": 3
+    },
+    {
+      "front": "What is the primary role of client-side scripting in web development?",
+      "back": "To enable interactive and dynamic functionalities directly within the user's web browser without constant server interaction.",
+      "unit": 4
+    },
+    {
+      "front": "Which programming language is universally supported by web browsers for client-side scripting?",
+      "back": "JavaScript.",
+      "unit": 4
+    },
+    {
+      "front": "Describe the three main ways to include JavaScript code in an HTML document.",
+      "back": "Inline (within HTML tags using event attributes), Internal (within `<script>` tags inside the HTML file), and External (linking a separate `.js` file using `<script src=\"...\">`).",
+      "unit": 4
+    },
+    {
+      "front": "What does the \"lexical structure\" of JavaScript define regarding source code?",
+      "back": "It defines the basic low-level syntax rules, such as how identifiers are named, how comments are written, how whitespace is treated, and how statements are terminated.",
+      "unit": 4
+    },
+    {
+      "front": "What rules must be followed when naming a JavaScript identifier (like a variable or function name)?",
+      "back": "Identifiers must start with a letter, underscore (`_`), or dollar sign (`$`). Subsequent characters can also be digits. They are case-sensitive and cannot be reserved words.",
+      "unit": 4
+    },
+    {
+      "front": "Differentiate between primitive and non-primitive (object) data types in JavaScript, providing an example of each.",
+      "back": "Primitive types (e.g., `Number`, `String`, `Boolean`) store simple values directly. Non-primitive types (e.g., `Object`, `Array`, `Function`) store complex collections of data and are reference types.",
+      "unit": 4
+    },
+    {
+      "front": "How does `const` differ from `let` in terms of variable declaration and assignment?",
+      "back": "Both `const` and `let` are block-scoped. However, `const` variables must be initialized at declaration and their value cannot be reassigned later, while `let` variables can be reassigned.",
+      "unit": 4
+    },
+    {
+      "front": "What is the purpose of the logical `AND` operator (`&&`) in JavaScript expressions?",
+      "back": "The logical `AND` operator returns `true` only if both operands are `true`; otherwise, it returns `false`. It's often used in conditional statements.",
+      "unit": 4
+    },
+    {
+      "front": "When would you use a `switch` statement instead of an `if...else if...else` chain?",
+      "back": "A `switch` statement is often preferred when you have a single expression that needs to be compared against multiple possible constant values, leading to cleaner and more readable code.",
+      "unit": 4
+    },
+    {
+      "front": "Write a simple `for` loop that prints numbers from 1 to 5 to the console.",
+      "back": "`for (let i = 1; i <= 5; i++) { console.log(i); }`",
+      "unit": 4
+    },
+    {
+      "front": "Which JavaScript built-in dialog box prompts the user for a \"Yes\" or \"No\" (or OK/Cancel) decision?",
+      "back": "The `confirm()` dialog box.",
+      "unit": 4
+    },
+    {
+      "front": "How can you add a new element to the end of an existing array named `myArray`?",
+      "back": "Using the `push()` method: `myArray.push(newValue);`",
+      "unit": 4
+    },
+    {
+      "front": "How do you get the current year from a JavaScript `Date` object?",
+      "back": "Using the `getFullYear()` method, e.g., `let date = new Date(); let year = date.getFullYear();`",
+      "unit": 4
+    },
+    {
+      "front": "Which `Math` object method would you use to get a random floating-point number between 0 (inclusive) and 1 (exclusive)?",
+      "back": "`Math.random()`.",
+      "unit": 4
+    },
+    {
+      "front": "How can you convert a string variable `myString` to all uppercase letters?",
+      "back": "Using the `toUpperCase()` method: `myString.toUpperCase()`.",
+      "unit": 4
+    },
+    {
+      "front": "What is the difference between a named function declaration and an anonymous function expression in JavaScript?",
+      "back": "A named function declaration is hoisted and defined globally or in the function scope where it's declared (e.g., `function funcName() {}`). An anonymous function expression is assigned to a variable, is not hoisted, and can be used as a callback or immediately invoked (e.g., `let funcVar = function() {};`).",
+      "unit": 4
+    },
+    {
+      "front": "What are the key benefits of implementing JavaScript for client-side form validation?",
+      "back": "It provides immediate feedback to users, improves user experience, reduces server load by catching invalid data early, and enhances security by ensuring basic data integrity.",
+      "unit": 4
+    },
+    {
+      "front": "Explain the role of the `catch` block within a `try...catch` statement.",
+      "back": "The `catch` block is executed if an error occurs within the `try` block. It receives the error object as an argument, allowing you to handle or display information about the error.",
+      "unit": 4
+    },
+    {
+      "front": "For what purpose are Regular Expressions typically used with strings in JavaScript?",
+      "back": "For pattern matching, searching for specific patterns, and replacing text within strings.",
+      "unit": 4
+    },
+    {
+      "front": "What does DOM stand for, and what is one common way JavaScript uses cookies for \"saving state\"?",
+      "back": "DOM stands for Document Object Model, which is a programming interface for web documents. JavaScript uses cookies to store small pieces of data (e.g., user preferences, session IDs) on the client's browser to maintain state across sessions or page loads.",
+      "unit": 4
+    },
+    {
+      "front": "What is jQuery?",
+      "back": "jQuery is a fast, small, and feature-rich JavaScript library designed to simplify client-side scripting of HTML, including DOM manipulation, event handling, animation, and Ajax.",
+      "unit": 5
+    },
+    {
+      "front": "What is the basic syntax for using jQuery?",
+      "back": "The basic syntax is `$(selector).action()`, where `$` is an alias for jQuery, `selector` targets an HTML element, and `action()` is the method to perform on the selected elements.",
+      "unit": 5
+    },
+    {
+      "front": "How do you ensure that jQuery code executes only after the entire DOM (Document Object Model) is fully loaded?",
+      "back": "You wrap the code inside the `$(document).ready()` function or its shorthand `$(function() { /* code */ });`.",
+      "unit": 5
+    },
+    {
+      "front": "Give an example of a jQuery element selector.",
+      "back": "`$(\"p\")` selects all `<p>` (paragraph) elements on the page.",
+      "unit": 5
+    },
+    {
+      "front": "How do you select an HTML element by its ID using jQuery? Provide an example.",
+      "back": "You use the ID selector (`#id`). For example, `$(\"#myButton\")` selects the element with `id=\"myButton\"`.",
+      "unit": 5
+    },
+    {
+      "front": "How do you select HTML elements by their class name using jQuery? Provide an example.",
+      "back": "You use the class selector (`.class`). For example, `$(\".myClass\")` selects all elements with `class=\"myClass\"`.",
+      "unit": 5
+    },
+    {
+      "front": "How can you attach a click event handler to all buttons on a page using jQuery?",
+      "back": "You can use `$(\"button\").click(function() { /* code to execute on click */ });` or `$(\"button\").on(\"click\", function() { /* code */ });`.",
+      "unit": 5
+    },
+    {
+      "front": "Which jQuery method is used to hide an HTML element?",
+      "back": "The `hide()` method. For example, `$(\"#myDiv\").hide();`.",
+      "unit": 5
+    },
+    {
+      "front": "Which jQuery method is used to display an HTML element that was previously hidden?",
+      "back": "The `show()` method. For example, `$(\"#myDiv\").show();`.",
+      "unit": 5
+    },
+    {
+      "front": "What jQuery method can be used to toggle the visibility of an element (hide if visible, show if hidden)?",
+      "back": "The `toggle()` method. For example, `$(\"#myDiv\").toggle();`.",
+      "unit": 5
+    },
+    {
+      "front": "What does JSON stand for?",
+      "back": "JSON stands for JavaScript Object Notation.",
+      "unit": 5
+    },
+    {
+      "front": "What is the primary application or purpose of JSON?",
+      "back": "JSON is primarily used for data interchange, especially for transmitting data between a web server and a web application.",
+      "unit": 5
+    },
+    {
+      "front": "What are the two main structural components used in JSON syntax?",
+      "back": "Objects (represented by `{}`) which are an unordered collection of key/value pairs, and Arrays (represented by `[]`) which are an ordered list of values.",
+      "unit": 5
+    },
+    {
+      "front": "List the six basic data types supported by JSON.",
+      "back": "String, Number, Boolean, Null, Object, and Array.",
+      "unit": 5
+    },
+    {
+      "front": "In JSON, what format must a key always be in?",
+      "back": "A key must always be a string enclosed in double quotes.",
+      "unit": 5
+    },
+    {
+      "front": "What symbol separates a key from its value in a JSON key-value pair?",
+      "back": "A colon (`:`). For example, `\"name\": \"Alice\"`.",
+      "unit": 5
+    },
+    {
+      "front": "What is Leaflet.JS?",
+      "back": "Leaflet.JS is an open-source JavaScript library specifically designed for creating mobile-friendly interactive maps.",
+      "unit": 5
+    },
+    {
+      "front": "What is the main purpose of Leaflet.JS?",
+      "back": "Its main purpose is to display interactive, customizable web maps on websites and web applications, often pulling map tiles from various providers.",
+      "unit": 5
+    },
+    {
+      "front": "What is GeoJSON?",
+      "back": "GeoJSON is an open standard format for encoding collections of simple geographical features along with their non-spatial attributes using JSON.",
+      "unit": 5
+    },
+    {
+      "front": "How is GeoJSON commonly used in conjunction with Leaflet.JS?",
+      "back": "Leaflet.JS has built-in support to easily load, parse, and display geographical data that is formatted according to the GeoJSON standard onto its interactive maps.",
+      "unit": 5
+    },
+    {
+      "front": "What is server-side scripting?",
+      "back": "Server-side scripting involves scripts executed on the web server before the page is sent to the user's browser, typically generating dynamic HTML content.",
+      "unit": 6
+    },
+    {
+      "front": "Name a popular server-side scripting language mentioned in the syllabus.",
+      "back": "PHP (Hypertext Preprocessor) is a popular server-side scripting language.",
+      "unit": 6
+    },
+    {
+      "front": "How does a web server process a server-side script like PHP?",
+      "back": "The web server sends the request to a PHP interpreter, which executes the PHP code, processes data, and then sends the resulting HTML (or other content) back to the web server, which delivers it to the browser.",
+      "unit": 6
+    },
+    {
+      "front": "What is the primary purpose of embedding PHP scripts in web pages?",
+      "back": "To generate dynamic web content, interact with databases, handle form submissions, and manage user sessions.",
+      "unit": 6
+    },
+    {
+      "front": "How do you open and close a standard PHP code block within an HTML file?",
+      "back": "PHP code blocks are typically opened with `<?php` and closed with `?>`.",
+      "unit": 6
+    },
+    {
+      "front": "How do you declare a variable in PHP?",
+      "back": "Variables in PHP are declared using a dollar sign (`$`) followed by the variable name, e.g., `$variableName = \"value\";`.",
+      "unit": 6
+    },
+    {
+      "front": "What is the purpose of the `echo` construct in PHP?",
+      "back": "The `echo` construct is used to output strings, numbers, or other data to the browser.",
+      "unit": 6
+    },
+    {
+      "front": "Explain the function of an `if` statement in PHP.",
+      "back": "An `if` statement executes a block of code only if a specified condition evaluates to true.",
+      "unit": 6
+    },
+    {
+      "front": "When would you use a `switch` statement instead of an `if-elseif-else` structure in PHP?",
+      "back": "A `switch` statement is often used when you have a single variable or expression that needs to be compared against multiple possible values, providing a cleaner and more readable structure.",
+      "unit": 6
+    },
+    {
+      "front": "What is the primary use case for a `for` loop in PHP?",
+      "back": "A `for` loop is used when you know exactly how many times you want to iterate through a block of code.",
+      "unit": 6
+    },
+    {
+      "front": "Describe what a `foreach` loop is used for in PHP.",
+      "back": "A `foreach` loop is specifically designed to iterate over elements in arrays or objects, providing an easy way to access each key/value pair or just the values.",
+      "unit": 6
+    },
+    {
+      "front": "What is an array in PHP?",
+      "back": "An array in PHP is a special variable that can hold more than one value at a time, organizing them using indexed (numeric) or associative (named string) keys.",
+      "unit": 6
+    },
+    {
+      "front": "How do you access an element from an associative array in PHP?",
+      "back": "You access an element using its string key within square brackets, e.g., `$myArray['keyName']`.",
+      "unit": 6
+    },
+    {
+      "front": "What is a function in PHP?",
+      "back": "A function in PHP is a block of statements that can be used repeatedly in a program, designed to perform a specific task and often returning a value.",
+      "unit": 6
+    },
+    {
+      "front": "What are the benefits of using functions in PHP?",
+      "back": "Functions promote code reusability, modularity, and make the code easier to maintain, debug, and understand.",
+      "unit": 6
+    },
+    {
+      "front": "Which HTML form attribute determines where the form data is sent upon submission?",
+      "back": "The `action` attribute specifies the URL where the form data will be sent for processing.",
+      "unit": 6
+    },
+    {
+      "front": "Which HTML form attribute determines the HTTP method used to send form data?",
+      "back": "The `method` attribute, typically set to `GET` or `POST`, determines how the form data is sent to the server.",
+      "unit": 6
+    },
+    {
+      "front": "What are the two primary PHP superglobal arrays used to retrieve data from HTML forms?",
+      "back": "`$_GET` and `$_POST` are used to collect form data after an HTML form submission with the GET and POST methods, respectively.",
+      "unit": 6
+    },
+    {
+      "front": "What is server-side form validation?",
+      "back": "Server-side form validation is the process of checking user input on the server after it has been submitted to ensure it meets predefined criteria and is secure before processing or storing it.",
+      "unit": 6
+    },
+    {
+      "front": "Why is server-side form validation crucial even if client-side validation is present?",
+      "back": "Server-side validation is crucial because client-side validation can be bypassed by malicious users or disabled browsers, ensuring data integrity and security at the server level.",
+      "unit": 6
+    },
+    {
+      "front": "What is the primary characteristic of an analog system?",
+      "back": "An analog system processes continuously varying signals.",
+      "unit": 1
+    },
+    {
+      "front": "Name one significant advantage of digital systems over analog systems.",
+      "back": "Digital systems are less susceptible to noise and offer higher accuracy and precision.",
+      "unit": 1
+    },
+    {
+      "front": "What is the base of the Hexadecimal number system?",
+      "back": "The base of the Hexadecimal number system is 16.",
+      "unit": 1
+    },
+    {
+      "front": "Which number system is fundamentally used by computers for internal operations?",
+      "back": "The Binary number system.",
+      "unit": 1
+    },
+    {
+      "front": "List the digits used in the Octal number system.",
+      "back": "0, 1, 2, 3, 4, 5, 6, 7.",
+      "unit": 1
+    },
+    {
+      "front": "Describe the general method to convert a decimal number to any other base (e.g., binary, octal, hexadecimal).",
+      "back": "Repeatedly divide the decimal number by the target base, collecting the remainders in reverse order.",
+      "unit": 1
+    },
+    {
+      "front": "How do you convert a binary number to its equivalent octal number?",
+      "back": "Group the binary digits into sets of three starting from the right (or left for the fractional part), and convert each group into its octal equivalent.",
+      "unit": 1
+    },
+    {
+      "front": "What is the first step when converting a hexadecimal number to its decimal equivalent?",
+      "back": "Multiply each hexadecimal digit by 16 raised to the power of its position (starting from 0 for the rightmost digit).",
+      "unit": 1
+    },
+    {
+      "front": "How is the 1's complement of a binary number obtained?",
+      "back": "By inverting each bit of the binary number (changing 0s to 1s and 1s to 0s).",
+      "unit": 1
+    },
+    {
+      "front": "How is the 2's complement of a binary number calculated?",
+      "back": "The 2's complement is obtained by adding 1 to the 1's complement of the binary number.",
+      "unit": 1
+    },
+    {
+      "front": "What is the main advantage of using 2's complement for subtraction in digital systems?",
+      "back": "It simplifies subtraction into an addition operation, eliminating the need for a separate subtraction circuit.",
+      "unit": 1
+    },
+    {
+      "front": "In 1's complement subtraction, what does an end-around carry signify?",
+      "back": "An end-around carry indicates a positive result, and it must be added to the least significant bit of the sum.",
+      "unit": 1
+    },
+    {
+      "front": "What does BCD stand for, and how many bits are used to represent each decimal digit?",
+      "back": "BCD stands for Binary Coded Decimal, and it uses 4 bits to represent each decimal digit (0-9).",
+      "unit": 1
+    },
+    {
+      "front": "Why is Excess-3 code considered a self-complementing code?",
+      "back": "The 1's complement of an Excess-3 code corresponds to the Excess-3 code of the 9's complement of the original decimal digit.",
+      "unit": 1
+    },
+    {
+      "front": "What is the primary purpose of a parity bit in data transmission?",
+      "back": "To detect single-bit errors that may occur during data transmission or storage.",
+      "unit": 1
+    },
+    {
+      "front": "Differentiate between even parity and odd parity.",
+      "back": "In even parity, the parity bit is set so that the total number of 1s in the data (including the parity bit) is even. In odd parity, it's set so the total number of 1s is odd.",
+      "unit": 1
+    },
+    {
+      "front": "What does ASCII stand for?",
+      "back": "ASCII stands for American Standard Code for Information Interchange.",
+      "unit": 1
+    },
+    {
+      "front": "How many bits are typically used in standard ASCII code to represent a character?",
+      "back": "Standard ASCII uses 7 bits to represent a character.",
+      "unit": 1
+    },
+    {
+      "front": "Give an example of a situation where a digital system is preferred over an analog system.",
+      "back": "Data storage in computers, due to higher reliability, accuracy, and easier manipulation.",
+      "unit": 1
+    },
+    {
+      "front": "Which number system is most compact for representing large binary numbers?",
+      "back": "The Hexadecimal system.",
+      "unit": 1
+    },
+    {
+      "front": "What is Boolean Algebra?",
+      "back": "Boolean Algebra is a branch of algebra in which the values of the variables are the truth values, typically *true* and *false*, usually denoted 1 and 0 respectively. It is used to analyze and simplify digital circuits.",
+      "unit": 2
+    },
+    {
+      "front": "State the Commutative Law for Boolean addition and multiplication.",
+      "back": "For Boolean addition: A + B = B + A",
+      "unit": 2
+    },
+    {
+      "front": "What is a Boolean function?",
+      "back": "A Boolean function describes the relationship between a set of binary input variables and a binary output variable. It specifies how the output is determined by the inputs using Boolean operators.",
+      "unit": 2
+    },
+    {
+      "front": "What is the algebraic function of an AND gate?",
+      "back": "The algebraic function of an AND gate with inputs A and B is Y = A \u00b7 B (or simply Y = AB).",
+      "unit": 2
+    },
+    {
+      "front": "Why is the simplification of Boolean functions important in digital circuit design?",
+      "back": "Simplification reduces the number of logic gates and inputs required to implement a circuit, leading to lower cost, reduced power consumption, smaller circuit size, and increased operating speed.",
+      "unit": 2
+    },
+    {
+      "front": "What does K-Map stand for, and what is its primary purpose?",
+      "back": "K-Map stands for Karnaugh Map. Its primary purpose is to provide a graphical method for simplifying Boolean expressions and functions, especially for expressions with up to 5 or 6 variables.",
+      "unit": 2
+    },
+    {
+      "front": "What is a \"don't care condition\" in Boolean simplification?",
+      "back": "A \"don't care condition\" (denoted by X or d) is a combination of input variables for which the output of a Boolean function is not specified, either because it doesn't matter or because those input combinations will never occur.",
+      "unit": 2
+    },
+    {
+      "front": "State De Morgan's first theorem.",
+      "back": "(A + B)' = A' \u00b7 B'",
+      "unit": 2
+    },
+    {
+      "front": "What is a minterm in a Boolean expression?",
+      "back": "A minterm is a product term in which all variables of the function appear exactly once, either in their true (uncomplemented) or complemented form. For example, for variables A and B, A'B is a minterm.",
+      "unit": 2
+    },
+    {
+      "front": "State the Identity Law for Boolean addition and multiplication.",
+      "back": "Identity Law for addition: A + 0 = A",
+      "unit": 2
+    },
+    {
+      "front": "Which digital logic gates are considered universal gates?",
+      "back": "NAND and NOR gates are considered universal gates because any Boolean function can be implemented using only NAND gates or only NOR gates.",
+      "unit": 2
+    },
+    {
+      "front": "How many cells are in a 3-variable K-Map, and how are they arranged?",
+      "back": "A 3-variable K-Map has 2^3 = 8 cells. They are typically arranged in a 2x4 grid, with rows representing one variable and columns representing the other two variables using Gray code order.",
+      "unit": 2
+    },
+    {
+      "front": "How are \"don't care conditions\" represented in a K-Map, and how are they used in simplification?",
+      "back": "\"Don't care conditions\" are represented by an 'X' or 'd' in the K-Map cell. They are used in simplification by treating them as either '0' or '1' (whichever helps to create larger groups of '1's) to achieve the largest possible groupings and thus the most simplified expression.",
+      "unit": 2
+    },
+    {
+      "front": "Define a literal in the context of Boolean expressions.",
+      "back": "A literal is a single variable, either in its uncomplemented (e.g., A) or complemented (e.g., A') form.",
+      "unit": 2
+    },
+    {
+      "front": "Name two common methods used for simplifying Boolean functions.",
+      "back": "1. Algebraic manipulation (using Boolean theorems and identities)",
+      "unit": 2
+    },
+    {
+      "front": "What is the algebraic function of a NOR gate?",
+      "back": "The algebraic function of a NOR gate with inputs A and B is Y = (A + B)' (the complement of A OR B).",
+      "unit": 2
+    },
+    {
+      "front": "What is the primary rule for grouping adjacent cells in a K-Map for simplification?",
+      "back": "Groups must contain 2^n (i.e., 1, 2, 4, 8, etc.) cells that contain '1's (or '1's and 'don't cares'), and the cells within a group must be physically or logically adjacent (including wrapping around the edges).",
+      "unit": 2
+    },
+    {
+      "front": "State the Distributive Law for Boolean Algebra.",
+      "back": "A \u00b7 (B + C) = A \u00b7 B + A \u00b7 C",
+      "unit": 2
+    },
+    {
+      "front": "What is the primary purpose of the \"Design Procedure\" in digital electronics?",
+      "back": "To systematically create a digital circuit that meets specific functional requirements, from problem definition to hardware implementation.",
+      "unit": 3
+    },
+    {
+      "front": "Name the two fundamental types of binary adders.",
+      "back": "Half-Adder and Full-Adder.",
+      "unit": 3
+    },
+    {
+      "front": "What is a Half-Adder?",
+      "back": "A combinational circuit that performs the addition of two single-bit binary numbers, producing a sum and a carry output.",
+      "unit": 3
+    },
+    {
+      "front": "List the inputs and outputs of a Half-Adder.",
+      "back": "Inputs: Two single bits (A, B). Outputs: Sum (S), Carry (C_out).",
+      "unit": 3
+    },
+    {
+      "front": "What is a Full-Adder?",
+      "back": "A combinational circuit that performs the addition of three single-bit binary numbers (two input bits and an incoming carry), producing a sum and an outgoing carry.",
+      "unit": 3
+    },
+    {
+      "front": "How many inputs and outputs does a Full-Adder have?",
+      "back": "Three inputs (A, B, C_in) and two outputs (Sum, C_out).",
+      "unit": 3
+    },
+    {
+      "front": "What is a Binary Parallel Adder?",
+      "back": "A digital circuit that adds multiple bits (binary numbers) simultaneously by connecting multiple full-adders in parallel.",
+      "unit": 3
+    },
+    {
+      "front": "What is the main advantage of a Binary Parallel Adder?",
+      "back": "It significantly reduces the propagation delay for addition by performing operations in parallel, leading to faster computations compared to ripple-carry adders.",
+      "unit": 3
+    },
+    {
+      "front": "Define an Encoder.",
+      "back": "A combinational circuit that converts an active input signal from one of 2^N input lines into a coded output on N output lines, typically a binary or BCD code.",
+      "unit": 3
+    },
+    {
+      "front": "For an N-bit encoder, what is the maximum number of unique input lines it can have?",
+      "back": "Up to 2^N input lines. (e.g., an 8-to-3 encoder has 8 input lines).",
+      "unit": 3
+    },
+    {
+      "front": "What is a Priority Encoder?",
+      "back": "An encoder that generates a binary output corresponding to the highest priority active input, ignoring other active inputs that may also be present.",
+      "unit": 3
+    },
+    {
+      "front": "Define a Decoder.",
+      "back": "A combinational circuit that converts a binary code from N input lines into a unique active output on one of 2^N output lines.",
+      "unit": 3
+    },
+    {
+      "front": "How many output lines does a 3-to-8 line decoder have?",
+      "back": "Eight output lines (2^3 = 8).",
+      "unit": 3
+    },
+    {
+      "front": "What is a common application of a Decoder?",
+      "back": "Address decoding in memory systems, data demultiplexing, or driving display segments.",
+      "unit": 3
+    },
+    {
+      "front": "What is a Multiplexer (Mux)?",
+      "back": "A combinational circuit that selects one of several input lines and routes it to a single output line based on the state of its select inputs.",
+      "unit": 3
+    },
+    {
+      "front": "What is another common name for a Multiplexer?",
+      "back": "Data selector.",
+      "unit": 3
+    },
+    {
+      "front": "Explain the role of \"select inputs\" in a Multiplexer.",
+      "back": "Select inputs determine which specific data input line is connected through to the single output line.",
+      "unit": 3
+    },
+    {
+      "front": "How many data inputs, select inputs, and outputs does a 4x1 Multiplexer have?",
+      "back": "4 data inputs, 2 select inputs, and 1 output.",
+      "unit": 3
+    },
+    {
+      "front": "What is a Demultiplexer (Demux)?",
+      "back": "A combinational circuit that takes a single input and distributes it to one of several output lines based on the state of its select inputs.",
+      "unit": 3
+    },
+    {
+      "front": "What is another common name for a Demultiplexer?",
+      "back": "Data distributor.",
+      "unit": 3
+    },
+    {
+      "front": "What is the primary function of a flip-flop in digital electronics?",
+      "back": "A flip-flop is a basic memory element that can store a single binary digit (0 or 1).",
+      "unit": 4
+    },
+    {
+      "front": "Name the four basic types of flip-flops commonly discussed.",
+      "back": "The four basic types are RS (or SR), D, JK, and T flip-flops.",
+      "unit": 4
+    },
+    {
+      "front": "What is the main difference between a latch and a flip-flop?",
+      "back": "Latches are level-triggered, meaning their output can change as long as the enable signal is high/low, while flip-flops are edge-triggered, changing output only on the rising or falling edge of a clock pulse.",
+      "unit": 4
+    },
+    {
+      "front": "Describe the 'indeterminate state' issue in a basic RS flip-flop.",
+      "back": "The indeterminate state occurs when both R and S inputs are simultaneously 1, causing an unpredictable output when both inputs return to 0.",
+      "unit": 4
+    },
+    {
+      "front": "How does a D flip-flop simplify the input process compared to an RS flip-flop?",
+      "back": "A D flip-flop has only one input (D), which is directly transferred to the output Q on the active clock edge, eliminating the indeterminate state.",
+      "unit": 4
+    },
+    {
+      "front": "What unique characteristic does a JK flip-flop possess that overcomes the RS flip-flop's indeterminate state?",
+      "back": "A JK flip-flop introduces the \"toggle\" state (when J=1, K=1), where the output flips its state on the clock edge, thus resolving the indeterminate condition.",
+      "unit": 4
+    },
+    {
+      "front": "What is the primary application of a T (Toggle) flip-flop?",
+      "back": "T flip-flops are primarily used for frequency division, clock division, and building simple counters, as they toggle their output state with each clock pulse when T=1.",
+      "unit": 4
+    },
+    {
+      "front": "What are the two main types of triggering mechanisms for flip-flops?",
+      "back": "The two main types are Level-triggering (used in latches) and Edge-triggering (positive-edge or negative-edge, used in flip-flops).",
+      "unit": 4
+    },
+    {
+      "front": "What is the purpose of a timing diagram in the analysis of sequential circuits?",
+      "back": "A timing diagram graphically represents the behavior of digital signals (clock, inputs, outputs) over time, illustrating their relationships and transitions.",
+      "unit": 4
+    },
+    {
+      "front": "What is a Flip-Flop Excitation Table?",
+      "back": "An excitation table lists the required inputs to a flip-flop (e.g., J and K for a JK flip-flop) to achieve a desired transition from a present state to a next state.",
+      "unit": 4
+    },
+    {
+      "front": "What is a State Table in the context of sequential circuit analysis?",
+      "back": "A State Table is a tabular representation that lists all possible present states, inputs, and the corresponding next states and outputs of a sequential circuit.",
+      "unit": 4
+    },
+    {
+      "front": "How does a State Diagram visually represent a sequential circuit's behavior?",
+      "back": "A State Diagram is a graphical representation where circles denote states and directed arcs (arrows) represent transitions between states, often labeled with inputs and outputs.",
+      "unit": 4
+    },
+    {
+      "front": "What are State Equations in sequential circuit analysis?",
+      "back": "State Equations are Boolean expressions that define the next state of each flip-flop within a sequential circuit based on its current state and the circuit's inputs.",
+      "unit": 4
+    },
+    {
+      "front": "What do \"Flip-Flop Input Functions\" describe in sequential circuit analysis?",
+      "back": "Flip-Flop Input Functions are Boolean expressions that determine the necessary input signals (e.g., J, K, D, T) for each individual flip-flop in the circuit to achieve the desired state transitions.",
+      "unit": 4
+    },
+    {
+      "front": "Briefly outline the initial steps in the design procedure for a synchronous sequential circuit.",
+      "back": "The initial steps include defining the state diagram or state table, followed by state assignment (assigning binary codes to states).",
+      "unit": 4
+    },
+    {
+      "front": "What is a digital Register and how many flip-flops are needed for a 4-bit register?",
+      "back": "A digital Register is a group of flip-flops used to store multiple bits of binary data. A 4-bit register requires four flip-flops, one for each bit.",
+      "unit": 4
+    },
+    {
+      "front": "What is a Shift Register's primary capability?",
+      "back": "A Shift Register is a specialized type of register that can move (shift) the stored binary data bits to the left or right.",
+      "unit": 4
+    },
+    {
+      "front": "Differentiate between a Ripple Counter and a Synchronous Counter based on their clocking mechanism.",
+      "back": "In a Ripple (Asynchronous) Counter, the clock input to each flip-flop (except the first) is derived from the output of the preceding flip-flop, leading to propagation delays. In a Synchronous Counter, all flip-flops are clocked simultaneously by a common clock signal.",
+      "unit": 4
+    },
+    {
+      "front": "What is the main advantage of a Synchronous Counter over a Ripple Counter?",
+      "back": "Synchronous Counters are generally faster and more reliable than ripple counters because all flip-flops change state simultaneously, eliminating propagation delays and avoiding transient output glitches.",
+      "unit": 4
+    },
+    {
+      "front": "What is a BCD Counter (Decade Counter)?",
+      "back": "A BCD (Binary-Coded Decimal) Counter is a synchronous counter designed to count from 0000 (0) to 1001 (9) and then reset to 0000, effectively counting in decimal digits.",
+      "unit": 4
+    },
+    {
+      "front": "What is a micro-operation in the context of computer organization?",
+      "back": "A micro-operation is an elementary operation performed on data stored in registers.",
+      "unit": 5
+    },
+    {
+      "front": "Define Interregister Transfer.",
+      "back": "Interregister transfer is the movement of binary information from one register to another.",
+      "unit": 5
+    },
+    {
+      "front": "How is an interregister transfer symbolically represented for moving data from Register B to Register R1?",
+      "back": "R1 \u2190 B",
+      "unit": 5
+    },
+    {
+      "front": "List three common arithmetic micro-operations.",
+      "back": "Addition, Subtraction, Increment, Decrement. (Any three)",
+      "unit": 5
+    },
+    {
+      "front": "What is the primary function of the Arithmetic Logic Unit (ALU)?",
+      "back": "To perform arithmetic and logic micro-operations on data.",
+      "unit": 5
+    },
+    {
+      "front": "Name three common logic micro-operations.",
+      "back": "AND, OR, XOR, Complement (NOT). (Any three)",
+      "unit": 5
+    },
+    {
+      "front": "Differentiate between a logical shift and an arithmetic shift.",
+      "back": "A logical shift inserts 0s into the empty bit positions, while an arithmetic shift preserves the sign bit during right shifts.",
+      "unit": 5
+    },
+    {
+      "front": "What is a circular shift micro-operation?",
+      "back": "A circular shift (or rotate) shifts bits around the two ends of the register without losing any information.",
+      "unit": 5
+    },
+    {
+      "front": "What are Conditional Control Statements in micro-operations?",
+      "back": "They are statements that specify conditions under which a micro-operation will be executed, often based on status bits or flags.",
+      "unit": 5
+    },
+    {
+      "front": "How are negative fixed-point binary numbers typically represented in computers for arithmetic operations?",
+      "back": "Using the 2's complement representation.",
+      "unit": 5
+    },
+    {
+      "front": "Explain how binary subtraction (A - B) is commonly implemented using 2's complement arithmetic.",
+      "back": "It is performed by adding A to the 2's complement of B (A + (2's complement of B)).",
+      "unit": 5
+    },
+    {
+      "front": "What is an overflow in signed binary arithmetic?",
+      "back": "Overflow is detected if the carry into the sign bit position is different from the carry out of the sign bit position.",
+      "unit": 5
+    },
+    {
+      "front": "What is an Instruction Code?",
+      "back": "An instruction code is a group of bits that instructs the computer to perform a specific operation.",
+      "unit": 5
+    },
+    {
+      "front": "What are the two main parts of an instruction code?",
+      "back": "Opcode (Operation Code) and Operand (which often specifies an address or data).",
+      "unit": 5
+    },
+    {
+      "front": "Define a Macrooperation.",
+      "back": "A macrooperation is a sequence of micro-operations, treated as a single, higher-level operation or instruction.",
+      "unit": 5
+    },
+    {
+      "front": "How does a macrooperation differ from a micro-operation?",
+      "back": "A micro-operation is an elementary register-level operation, while a macrooperation is a more complex operation composed of multiple micro-operations.",
+      "unit": 5
+    },
+    {
+      "front": "What is the primary role of the Control Unit in a simple computer design?",
+      "back": "To interpret instructions and generate the necessary control signals to execute micro-operations in the correct sequence.",
+      "unit": 5
+    },
+    {
+      "front": "What are the three main types of shift micro-operations?",
+      "back": "Logical shift, Arithmetic shift, and Circular shift.",
+      "unit": 5
+    },
+    {
+      "front": "In a simple computer, what does \"fixed-point binary data\" refer to?",
+      "back": "Binary numbers where the position of the binary point is fixed, typically after the least significant bit (representing integers) or at a specific predefined location.",
+      "unit": 5
+    },
+    {
+      "front": "What is the primary focus of Processor Logic Design?",
+      "back": "Processor Logic Design focuses on the detailed internal organization and interconnection of digital circuits that form the Central Processing Unit (CPU).",
+      "unit": 6
+    },
+    {
+      "front": "What fundamental components are involved in processor logic design?",
+      "back": "It involves the design of logic circuits using gates, flip-flops, registers, and other basic building blocks to perform computational and control functions.",
+      "unit": 6
+    },
+    {
+      "front": "Explain the concept of Bus Organization within a processor.",
+      "back": "Bus Organization refers to the shared communication pathways (buses) that connect various components of a computer system, enabling efficient data transfer between them.",
+      "unit": 6
+    },
+    {
+      "front": "Name the three principal types of buses found in a typical bus-organized computer system.",
+      "back": "The three principal types are the Address Bus, Data Bus, and Control Bus.",
+      "unit": 6
+    },
+    {
+      "front": "What is the specific function of the Address Bus?",
+      "back": "The Address Bus is unidirectional and carries the memory address or I/O port address that the CPU wants to access.",
+      "unit": 6
+    },
+    {
+      "front": "What is the specific function of the Data Bus?",
+      "back": "The Data Bus is bidirectional and carries the actual data being transferred between the CPU, memory, and I/O devices.",
+      "unit": 6
+    },
+    {
+      "front": "What is the specific function of the Control Bus?",
+      "back": "The Control Bus carries control signals (e.g., read/write, memory access, I/O request) from the CPU to other components and status signals back, coordinating operations.",
+      "unit": 6
+    },
+    {
+      "front": "Why is bus organization critical for a processor's operation?",
+      "back": "It provides a structured and efficient method for different internal components to communicate, share information, and synchronize their operations.",
+      "unit": 6
+    },
+    {
+      "front": "What is the main objective of Control Logic Design in a CPU?",
+      "back": "The main objective of Control Logic Design is to create the circuits that generate the precise sequence of control signals required to fetch, decode, and execute instructions.",
+      "unit": 6
+    },
+    {
+      "front": "Which specific unit within the CPU is responsible for executing the decisions of the control logic?",
+      "back": "The Control Unit (CU) is the specific unit responsible for interpreting instructions and generating the necessary control signals.",
+      "unit": 6
+    },
+    {
+      "front": "Define Microprogram Control as a method of CPU control.",
+      "back": "Microprogram Control is an implementation technique for the Control Unit where control signals are generated by reading a sequence of microinstructions stored in a special memory called Control Memory.",
+      "unit": 6
+    },
+    {
+      "front": "What is a microinstruction in the context of Microprogram Control?",
+      "back": "A microinstruction is a word in the control memory that contains bits to activate specific control signals and possibly the address of the next microinstruction.",
+      "unit": 6
+    },
+    {
+      "front": "Identify two key components illustrated in the Block Diagram of a Microprogrammed Control Unit.",
+      "back": "Two key components are the Control Memory (CM) which stores microprograms, and the Microprogram Sequencer/Next Address Generator which determines the next microinstruction to be executed.",
+      "unit": 6
+    },
+    {
+      "front": "State one significant advantage of Microprogram Control.",
+      "back": "A significant advantage is its flexibility and ease of modification; the instruction set can be changed or expanded simply by updating the microprogram in control memory.",
+      "unit": 6
+    },
+    {
+      "front": "State one significant disadvantage of Microprogram Control compared to Hard-Wired control.",
+      "back": "A significant disadvantage is that it is generally slower than hard-wired control due to the extra memory access time required to fetch microinstructions.",
+      "unit": 6
+    },
+    {
+      "front": "Define Hard-Wired Control as a method of CPU control.",
+      "back": "Hard-Wired Control is an implementation technique for the Control Unit where control signals are generated directly by fixed logic circuits (gates, decoders, flip-flops) without the use of a control memory.",
+      "unit": 6
+    },
+    {
+      "front": "How are control signals generated in a Hard-Wired Control unit?",
+      "back": "Control signals are generated directly by combinational logic circuits whose inputs include the instruction opcode, timing signals, and flags.",
+      "unit": 6
+    },
+    {
+      "front": "State one significant advantage of Hard-Wired Control.",
+      "back": "A significant advantage is its speed, as control signals are generated almost instantaneously by the logic gates, making it faster than microprogrammed control.",
+      "unit": 6
+    },
+    {
+      "front": "State one significant disadvantage of Hard-Wired Control.",
+      "back": "A significant disadvantage is its inflexibility; modifying the instruction set or correcting design errors requires a complex redesign and rewiring of the physical logic circuits.",
+      "unit": 6
+    },
+    {
+      "front": "Which control logic design approach, Microprogram or Hard-Wired, is generally better suited for implementing complex instruction sets (CISC) and why?",
+      "back": "Microprogram Control is generally better suited for CISC because its flexibility simplifies the implementation and modification of complex and numerous instructions.",
+      "unit": 6
+    },
+    {
+      "front": "What is the primary focus of the 'Introduction' section in a unit on computer organization?",
+      "back": "The 'Introduction' section typically provides an overview of the unit's topics, their importance, and foundational concepts related to computer architecture and operation.",
+      "unit": 7
+    },
+    {
+      "front": "Why is it important to understand how a computer executes instructions?",
+      "back": "Understanding instruction execution is crucial for comprehending how a computer processes data, performs operations, and the underlying logic of program execution.",
+      "unit": 7
+    },
+    {
+      "front": "What does 'System Configuration' refer to in the context of a computer system?",
+      "back": "System Configuration refers to the specific setup of a computer system, including its hardware components (CPU, memory, I/O devices) and their interconnections, as well as the software settings.",
+      "unit": 7
+    },
+    {
+      "front": "Name a key hardware component whose configuration significantly impacts system performance.",
+      "back": "The Central Processing Unit (CPU), Memory (RAM), and Storage devices (SSD/HDD) are key hardware components whose configuration significantly impacts system performance.",
+      "unit": 7
+    },
+    {
+      "front": "How does the type of memory installed affect system configuration?",
+      "back": "The type, size, and speed of memory (RAM) directly affect system configuration by determining how much data can be stored and accessed quickly by the CPU, impacting overall performance.",
+      "unit": 7
+    },
+    {
+      "front": "What role do I/O devices play in system configuration?",
+      "back": "I/O (Input/Output) devices like keyboards, monitors, and printers are integral to system configuration, providing the means for user interaction and data exchange with the external world.",
+      "unit": 7
+    },
+    {
+      "front": "What is the significance of the bus architecture in system configuration?",
+      "back": "The bus architecture (e.g., data bus, address bus, control bus) defines the communication pathways between different components, significantly impacting data transfer speeds and overall system efficiency.",
+      "unit": 7
+    },
+    {
+      "front": "What is a 'Computer Instruction'?",
+      "back": "A computer instruction is a command given to the computer's processor to perform a specific, elementary operation, such as adding two numbers, moving data, or branching.",
+      "unit": 7
+    },
+    {
+      "front": "What are the two main parts of a typical computer instruction?",
+      "back": "A typical computer instruction consists of an 'opcode' (operation code), which specifies the operation to be performed, and 'operands' (or addresses), which specify the data or locations involved.",
+      "unit": 7
+    },
+    {
+      "front": "Give an example of an instruction type based on its function.",
+      "back": "Examples include data transfer instructions (e.g., LOAD, STORE), arithmetic instructions (e.g., ADD, SUBTRACT), logical instructions (e.g., AND, OR), and control flow instructions (e.g., JUMP, CALL).",
+      "unit": 7
+    },
+    {
+      "front": "What is the purpose of an 'opcode' in a computer instruction?",
+      "back": "Operands in an instruction specify the data that the operation will act upon, or the memory addresses where the data is located, or the registers involved.",
+      "unit": 7
+    },
+    {
+      "front": "How do instructions relate to programs?",
+      "back": "Instructions are the fundamental building blocks of computer programs; a program is essentially a sequence of interconnected instructions designed to perform a specific task.",
+      "unit": 7
+    },
+    {
+      "front": "What is an 'instruction set'?",
+      "back": "An instruction set is the complete set of instructions that a particular CPU architecture can understand and execute.",
+      "unit": 7
+    },
+    {
+      "front": "What is the primary role of the 'Control Unit' in a CPU?",
+      "back": "The Control Unit (CU) is responsible for fetching instructions, decoding them, and generating the control signals that direct the various components of the CPU to execute the specified operations.",
+      "unit": 7
+    },
+    {
+      "front": "How does the 'System Clock' contribute to timing and control in a computer?",
+      "back": "The System Clock generates a continuous sequence of electrical pulses (clock cycles) that synchronize the operations of all components within the computer, ensuring orderly data transfer and instruction execution.",
+      "unit": 7
+    },
+    {
+      "front": "What are 'control signals' in the context of timing and control?",
+      "back": "Control signals are electrical signals generated by the Control Unit that dictate the actions of other components, such as enabling data writes to memory, selecting registers, or activating ALU operations.",
+      "unit": 7
+    },
+    {
+      "front": "Why is precise timing crucial for computer operations?",
+      "back": "Precise timing is crucial because all operations within a computer system, from data transfer to instruction execution, must be perfectly synchronized to ensure data integrity and correct processing.",
+      "unit": 7
+    },
+    {
+      "front": "Briefly describe the main phases of the 'Instruction Cycle' (Fetch-Decode-Execute Cycle).",
+      "back": "The Instruction Cycle typically involves three main phases: Fetch (retrieve instruction from memory), Decode (interpret the instruction), and Execute (perform the operation specified by the instruction).",
+      "unit": 7
+    },
+    {
+      "front": "What happens during the 'Fetch' phase of instruction execution?",
+      "back": "During the Fetch phase, the CPU retrieves the next instruction from the memory location pointed to by the Program Counter (PC) and loads it into the Instruction Register (IR).",
+      "unit": 7
+    },
+    {
+      "front": "What are the three primary functional units that constitute a basic microcomputer organization?",
+      "back": "The three primary functional units are the Microprocessor (CPU), Memory (RAM and ROM), and Input/Output (I/O) Units.",
+      "unit": 8
+    },
+    {
+      "front": "Describe the main role of the Control Unit within a microprocessor.",
+      "back": "The Control Unit (CU) interprets instructions, generates control signals, and orchestrates the operations of the microprocessor and other computer components to execute instructions.",
+      "unit": 8
+    },
+    {
+      "front": "What is an instruction set in the context of a microprocessor?",
+      "back": "An instruction set is the complete collection of commands or operations (e.g., add, move, jump) that a specific microprocessor is designed to understand and execute.",
+      "unit": 8
+    },
+    {
+      "front": "Name two common categories of microprocessor instructions.",
+      "back": "Two common categories are Data Transfer Instructions (e.g., MOV, LOAD) and Arithmetic Instructions (e.g., ADD, SUB).",
+      "unit": 8
+    },
+    {
+      "front": "What is the primary purpose of using different Addressing Modes in microprocessor instructions?",
+      "back": "Addressing modes define how the effective memory address of an operand is calculated, allowing for flexible ways to access data (e.g., directly, indirectly, or based on a register).",
+      "unit": 8
+    },
+    {
+      "front": "Explain the Immediate Addressing Mode.",
+      "back": "In Immediate Addressing Mode, the actual operand value is directly provided within the instruction itself, rather than an address pointing to the operand.",
+      "unit": 8
+    },
+    {
+      "front": "What is a stack in computer architecture?",
+      "back": "A stack is a Last-In, First-Out (LIFO) data structure in memory, primarily used for temporary storage of data, return addresses, and parameters during program execution.",
+      "unit": 8
+    },
+    {
+      "front": "What are the two fundamental operations performed on a stack?",
+      "back": "The two fundamental operations are PUSH (to add data to the top of the stack) and POP (to remove data from the top of the stack).",
+      "unit": 8
+    },
+    {
+      "front": "What is a subroutine in programming?",
+      "back": "A subroutine (or function/procedure) is a self-contained block of code designed to perform a specific task, which can be called multiple times from different parts of a main program.",
+      "unit": 8
+    },
+    {
+      "front": "What typically happens to the return address when a subroutine is called?",
+      "back": "When a subroutine is called, the current value of the Program Counter (which points to the instruction immediately after the call), serving as the return address, is automatically pushed onto the stack.",
+      "unit": 8
+    },
+    {
+      "front": "Define an interrupt in a microcomputer system.",
+      "back": "An interrupt is a signal (hardware or software generated) that temporarily suspends the CPU's current execution to allow it to handle an urgent event or request.",
+      "unit": 8
+    },
+    {
+      "front": "What is an Interrupt Service Routine (ISR)?",
+      "back": "An Interrupt Service Routine (ISR), also known as an interrupt handler, is a specific software routine executed by the CPU in response to an interrupt, designed to address the cause of the interrupt.",
+      "unit": 8
+    },
+    {
+      "front": "Why is an Input-Output (I/O) interface necessary between the CPU and peripheral devices?",
+      "back": "An I/O interface is necessary to bridge the differences in data transfer rates, data formats, and signal levels between the fast CPU and diverse, slower peripheral devices.",
+      "unit": 8
+    },
+    {
+      "front": "Distinguish between Memory-Mapped I/O and I/O-Mapped I/O.",
+      "back": "In Memory-Mapped I/O, I/O devices are treated as memory locations, using the same instructions as memory access. In I/O-Mapped I/O, separate address spaces and dedicated I/O instructions are used for peripheral access.",
+      "unit": 8
+    },
+    {
+      "front": "What does DMA stand for, and what is its primary purpose?",
+      "back": "DMA stands for Direct Memory Access. Its primary purpose is to allow I/O devices to transfer data directly to and from memory without CPU intervention, thus improving system efficiency and speed.",
+      "unit": 8
+    },
+    {
+      "front": "What is the role of a DMA Controller (DMAC) in a system?",
+      "back": "A DMA Controller (DMAC) is a dedicated hardware component that manages and orchestrates direct data transfers between I/O devices and main memory, offloading this task from the CPU.",
+      "unit": 8
+    },
+    {
+      "front": "How does a DMA transfer typically start and briefly proceed?",
+      "back": "An I/O device requests a DMA transfer from the DMAC. The DMAC then requests control of the system buses from the CPU. Once the CPU grants the buses, the DMAC directly handles the data transfer between the I/O device and memory.",
+      "unit": 8
+    },
+    {
+      "front": "What is the purpose of the system bus in microcomputer organization?",
+      "back": "The system bus serves as the common communication pathway, comprising data lines, address lines, and control lines, enabling the CPU, memory, and I/O devices to exchange information.",
+      "unit": 8
+    },
+    {
+      "front": "Name one advantage of using subroutines in programming.",
+      "back": "One advantage is code reusability, as a subroutine can be written once and called multiple times, reducing program size and improving maintainability.",
+      "unit": 8
+    },
+    {
+      "front": "Explain the concept of Programmed I/O.",
+      "back": "Programmed I/O is a data transfer method where the CPU directly controls all aspects of I/O operations by repeatedly checking the status of the I/O device and moving data in or out using specific I/O instructions.",
+      "unit": 8
+    }
+  ]
+}
